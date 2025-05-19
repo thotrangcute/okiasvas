@@ -1,0 +1,1633 @@
+
+body{
+    margin:0;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+.banhbaocup-hear{
+    background: transparent;
+}
+.container::after {
+    background-color: #000000;
+}
+.navbar{
+
+    position:fixed ;
+    width:100%;
+    text-decoration: none;
+    z-index: 1;
+    
+}
+.navbar-header{
+    padding:5px 20px;
+    margin-top:10px;
+   
+}
+.navbar-brand{
+    font-weight:500;
+    color:rgb(255, 255, 255) ;
+    float:left;
+    height:50px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar-colleha{
+    float:right;
+}
+.navbar-nav{
+    list-style-type: none; 
+    padding:0;
+    display:flex;
+}
+.navbar-colleha li{
+    color:rgb(255, 255, 255);
+    padding-right:70px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+
+
+
+}
+.navbar-nav li a {
+     text-decoration: none;
+     padding-right:70px;
+     color:#fff;
+}
+.image-thiuthiu{
+     height:700px;
+}
+.bg-gradient {
+    height:700px;
+    z-index: 0;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 40px;
+}
+.container-write{
+    position:absolute;
+    top: 24%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.container-sayer_chayi {
+        padding: 0 15%;
+}
+.bg-gradient::before{
+    position:absolute;
+    background:linear-gradient(to bottom,rgba(40,115,113,0.57),rgba(115,54,31,0.67));
+    width: 100%;
+    height:65.8%;
+    content: "";
+}
+.contanier-sub{
+    padding-top:140px;
+    padding-bottom:50px;
+}
+
+.container-sayer-luon{
+    text-align: center;
+}
+ h2{
+    display: inline-block;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.filler-caycu{
+    cursor: pointer;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:0;
+}
+a {
+    color:black;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+a:hover{
+    color:rgb(180, 183, 186);
+}
+.container-muner{
+    padding:0 5%;
+    animation: containertransfor ease-in 0.4s;
+
+}
+.containner-mumu{
+    margin:5% 0;
+}
+.container-momo{
+    padding:0 5%;
+}
+.sunny-heoly{
+   display:flex;
+   flex-wrap:wrap;
+   padding:0 9%;
+   gap:20px;
+}
+.sunny-sunnu{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+   
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+
+.suno-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.suno-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.sunnnyy-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sunny-sunnu:hover .sunnnyy-heoa{
+    transform:translateY(0);
+}
+.sunny-sunnu:active .sunnnyy-heoa{
+    transform:translateY(0);
+}
+.sunny-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.going-merii{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top:0; 
+    left:36%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.merimeri-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.44s;
+}
+.merimeri-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.meri-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.88;
+    font-size:0.77em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.44s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.going-merii:hover .meri-heoa{
+    transform:translateY(0);
+}
+.going-merii:active .meri-heoa{
+    transform:translateY(0);
+}
+.goinggoing-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.mobilic-white{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top:0; 
+    left:70%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.mobilic-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.mobilic-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.mobilic-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mobilic-white:hover .mobilic-heoa{
+    transform:translateY(0);
+}
+.mobilic-white:active .mobilic-heoa{
+    transform:translateY(0);
+}
+.mobilic-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.Black-Pearll{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+   
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Black-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.Black-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Black-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Black-Pearll:hover .Black-heoa{
+    transform:translateY(0);
+}
+.Black-Pearll:active .Black-heoa{
+    transform:translateY(0);
+}
+.Black-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.Jolly-Roger{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top: 51%;
+    left:36%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Jolly-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.Jolly-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Jolly-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Jolly-Roger:hover .Jolly-heoa{
+    transform:translateY(0);
+}
+.Jolly-Roger:active .Jolly-heoa{
+    transform:translateY(0);
+}
+.Jolly-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.Ark-Maxim{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top:51%; 
+    left:70%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Ark-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.Ark-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Ark-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Ark-Maxim:hover .Ark-heoa{
+    transform:translateY(0);
+}
+.Ark-Maxim:active .Ark-heoa{
+    transform:translateY(0);
+}
+
+.Ark-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.Red-Force{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+   
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Red-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.Red-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Red-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Red-Force:hover .Red-heoa{
+    transform:translateY(0);
+}
+.Red-Force:active .Red-heoa{
+    transform:translateY(0);
+}
+.Red-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.Oro-Jackson{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top: 103%;
+    left:36%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Oro-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.Oro-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Oro-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.7;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Oro-Jackson:hover .Oro-heoa{
+    transform:translateY(0);
+}
+.Oro-Jackson:active .Oro-heoa{
+    transform:translateY(0);
+}
+.Oro-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+
+.Boa-Hancook{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top:103%; 
+    left:70%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Boa-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.Boa-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Boa-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Boa-Hancook:hover .Boa-heoa{
+    transform:translateY(0);
+}
+.Boa-Hancook:active .Boa-heoa{
+    transform:translateY(0);
+}
+.Boa-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.Eustass-Kid{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+   
+    top: 153%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Eustass-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.Eustass-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Eustass-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Eustass-Kid:hover .Eustass-heoa{
+    transform:translateY(0);
+}
+.Eustass-Kid:active .Eustass-heoa{
+    transform:translateY(0);
+}
+
+.Eustass-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.Trafalgar-Law{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top: 156%;
+    left:36%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Trafalgar-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.Trafalgar-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Trafalgar-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Trafalgar-Law:hover .Trafalgar-heoa{
+    transform:translateY(0);
+}
+.Trafalgar-Law:active .Trafalgar-heoa{
+    transform:translateY(0);
+}
+.Trafalgar-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.Donquixote-Doflamingo{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top:156%; 
+    left:70%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Donquixote-imange img {
+    width:100%;
+    height:100%;
+    transition: transform 0.4s;
+}
+.Donquixote-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Donquixote-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Donquixote-Doflamingo:hover .Donquixote-heoa{
+    transform:translateY(0);
+}
+.Donquixote-Doflamingo:active .Donquixote-heoa{
+    transform:translateY(0);
+}
+.Donquixote-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.Kaido-wanowano{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+   
+    top: 205%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Kaido-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.4s;
+}
+.Kaido-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Kaido-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Kaido-wanowano:hover .Kaido-heoa{
+    transform:translateY(0);
+}
+.Kaido-wanowano:active .Kaido-heoa{
+    transform:translateY(0);
+}
+
+.Kaido-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.Blackbeard-teach{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top: 208%;
+    left:36%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Blackbeard-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.4s;
+}
+.Blackbeard-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Blackbeard-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Blackbeard-teach:hover .Blackbeard-heoa{
+    transform:translateY(0);
+}
+.Blackbeard-teach:active .Blackbeard-heoa{
+    transform:translateY(0);
+}
+.Blackbeard-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+
+
+
+.BigMom-mothermother{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top:208%; 
+    left:70%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.BigMom-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.4s;
+}
+.BigMom-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.BigMom-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BigMom-mothermother:hover .BigMom-heoa{
+    transform:translateY(0);
+}
+.BigMom-mothermother:active .BigMom-heoa{
+    transform:translateY(0);
+}
+.BigMom-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+
+.Monkeydi-Luffy{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+   
+    top: 257%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Monkeydi-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.4s;
+}
+.Monkeydi-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Monkeydi-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Monkeydi-Luffy:hover .Monkeydi-heoa{
+    transform:translateY(0);
+}
+.Monkeydi-Luffy:active .Monkeydi-heoa{
+    transform:translateY(0);
+}
+.Monkeydi-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+
+.Shanks-tocdotocdo{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top: 260%;
+    left:36%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Shanks-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.44s;
+}
+.Shanks-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Shanks-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.88;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.44s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Shanks-tocdotocdo:hover .Shanks-heoa{
+    transform:translateY(0);
+}
+.Shanks-tocdotocdo:active .Shanks-heoa{
+    transform:translateY(0);
+}
+.Shanks-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.Visnmoke-sanjisanji{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top:260%; 
+    left:70%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Visnmoke-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.44s;
+}
+.Visnmoke-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Visnmoke-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.88;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Visnmoke-sanjisanji:hover .Visnmoke-heoa{
+    transform:translateY(0);
+}
+.Visnmoke-sanjisanji:active .Visnmoke-heoa{
+    transform:translateY(0);
+}
+.Vismoke-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.Noanoro-rozo{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+   
+    top: 309%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Noanoro-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.4s;
+}
+.Noanoro-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Noanoro-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Noanoro-rozo:hover .Noanoro-heoa{
+    transform:translateY(0);
+}
+.Noanoro-rozo:active .Noanoro-heoa{
+    transform:translateY(0);
+}
+.Noanoro-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.Nicooo-robin{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top: 313%;
+    left:36%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Nicooo-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.44s;
+}
+.Nicooo-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Nicooo-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.88;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.44s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Nicooo-robin:hover .Nicooo-heoa{
+    transform:translateY(0);
+}
+.Nicooo-robin:active .Nicooo-heoa{
+    transform:translateY(0);
+}
+.Nicooo-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.manana-mimi{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top:312%; 
+    left:70%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.manana-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.44s;
+}
+.manana-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.manana-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.88;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.manana-mimi:hover .manana-heoa{
+    transform:translateY(0);
+}
+.manana-mimi:active .manana-heoa{
+    transform:translateY(0);
+}
+.manana-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.Brook-diedie{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+   
+    top: 362%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Brook-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.4s;
+}
+.Brook-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Brook-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Brook-diedie:hover .Brook-heoa{
+    transform:translateY(0);
+}
+.Brook-diedie:active .Brook-heoa{
+    transform:translateY(0);
+}
+.Brook-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.Frank-robot{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top: 365%;
+    left:36%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Frank-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.44s;
+}
+.Frank-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Frank-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.88;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.44s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Frank-robot:hover .Frank-heoa{
+    transform:translateY(0);
+}
+.Frank-robot:active .Frank-heoa{
+    transform:translateY(0);
+}
+.Frank-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.chopper-beautibeauti{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+    top:364%; 
+    left:70%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.chopper-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.44s;
+}
+.chopper-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.chopper-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.88;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chopper-beautibeauti:hover .chopper-heoa{
+    transform:translateY(0);
+}
+.chopper-beautibeauti:active .chopper-heoa{
+    transform:translateY(0);
+}
+.chopper-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.Sabo-viemdeviemde{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    width:100%;
+   
+    top: 414%;
+
+}
+a{
+    position:relative;
+    overflow:hidden;
+}
+.Sabo-imange img {
+    width:100%;
+   height:100%;
+    transition: transform 0.4s;
+}
+.Sabo-imange img:hover{
+    transform:rotate(2deg) scale(1);
+
+}
+
+.Sabo-heoa {
+    width:100%;
+    text-align: center;
+    padding:1%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    color:#000000;
+    background-color: aliceblue;
+    opacity:0.8;
+    font-size:0.7em;   
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Sabo-viemdeviemde:hover .Sabo-heoa{
+    transform:translateY(0);
+}
+.Sabo-viemdeviemde:active .Sabo-heoa{
+    transform:translateY(0);
+}
+.Sabo-omagr{
+    font-size:15px;
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+.item-apps{
+height:270px;
+width:400px ;
+padding:0px 0;
+}
+.list-item{
+    height:270px;
+
+}
+.footer{
+    height:50px;
+    margin:5px 0;
+    background-color: #000000;
+}
+.footer-line {
+    padding:15px;
+}
+.footer-dier{
+    display:flex;
+    justify-content: center;
+    gap:15px;
+}
+.fa{
+    color:white;
+}
+.finish-thoi a i {
+    width:28px;
+    height:28px;
+    background-color: #e6ff26;
+    display:block;
+    text-align: center;
+    position: fixed;
+    bottom: 12px;
+    right: 15px;
+    color: black;
+    z-index: 999;
+    opacity: 0.6;
+    border-radius: 2px;
+    padding: 8px 4px 0px 7px;
+}
+.finish-thoi a ii:hover{
+    opacity:1;
+    color:#000000;
+    direction:none;
+}
+@media(max-width:430px){
+    .container{
+        display:grid;
+        grid-template-columns: 75px 227px;
+
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-brand{
+        font-size:17px;
+        letter-spacing: 1px;
+        padding-top:15px;
+    }
+    .navbar-header{
+        padding:0;
+        font-size:20px;
+        margin:0;
+    }
+    .navbar-colleha li{
+        padding:0;
+        letter-spacing: 0;
+    }
+    .navbar-nav li a{
+        padding:0;
+        letter-spacing: 1px;
+    }
+    .filler-caycu{
+        margin:0;
+        padding:0;
+        font-size:10px;
+        display:flex;
+        flex-wrap: wrap;
+        letter-spacing: 1px;
+        gap: 15px;
+    }
+    .section-coll{
+        padding-left:15px;
+    }
+    .container-write{
+        font-size:20px;
+        letter-spacing: 5px;
+        top:22%;
+    }
+    .bg-gradient::before{
+        height:75%;
+    }
+    .container-sayer-luon h2 {
+        font-size:20px;
+    }
+    .container-muner{
+        padding:0;
+    }
+    .container-momo{
+        padding:0;
+    }
+   
+    .sunny-heoly{
+        padding:0 10%;
+    }
+    .finish-thoi a i{
+        right:2px;
+        background-color: #e6ff26;
+    }
+    .bg-gradient{
+        height:500px;
+
+    }
+    .image-thiuthiu{
+        height:500px;
+    }
+    .bg-gradient::before{
+        height:53.9%;
+    }
+
+}
